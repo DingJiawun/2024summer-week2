@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+}
+
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.h1 {
+    font-size: 128px;
+}
+
+.h2 {
+    font-size: 40px;
+}
+
+.fz1-text {
+    font-size: 32px;
+}
+
+.fz2-text {
+    font-size: 24px;
+}
+
+.fz3-text {
+    font-size: 20px;
+}
+
+.fz-title {
+    font-size: 64px;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.df {
+    display: flex;
+}
+.jc-flex-end {
+    justify-content: flex-end;
+}
+.mr24 {
+    margin-right: 24px;
+}
+
+.m160 {
+    margin: 160px 0;
+}
+
+.m24 {
+    margin: 24px 0;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w274 {
+    width: 274px;
+}
+
+.w526 {
+    width: 526px;
+}
+
+.mb36 {
+    margin-bottom: 36px;
+}
+
+.mr16 {
+    margin-right: 16px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+.mb24 {
+    margin-bottom: 24px;
+}
+.jcsb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 32px;    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header {
+    background-color: #000;
+    color: #D1D1D1;
+}
+
+.nav-items {
+    color: #D1D1D1;
+}
+
+.banner {
+    background-color: #000;
+    color: #fff;
+}
+
+.banner-title {
+    align-content: center;
+}
+
+.banner-title-strong {
+    text-align: right;
+    color: #00FFA3;
+}
+
+.banner-btn {
+    background-color: #fff;
+}
+
+.banner-img {
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+
+.intro-wrap {
+    background-image: url(img/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.intro {
+    color: #fff;
+    justify-content: space-between;
+}
+
+.intro-title {
+    margin-bottom: 36px;
+}
+
+.intro-p {
+    width: 526px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.card {
+    border: 1px solid #E3E3E3;
+    padding: 16px;
+    align-content: center;
+}
+
+.card-list {
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.contact {
+    background-color: #000;
+    color: #fff;
+    padding: 96px 0;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.trending_flat {
+    width: 100px;
+    height: 100px;
+}
+
+.about {
+    margin: 160px 0;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+.Rectangle-10 {
+    width: 416px;
+    height: 530px;
+}
+.project {
+    margin: 160px 0;
+}
+.project-p {
+    width: 636px;
+    margin-bottom: 76px;
+}
+.project-btn {
+    display: inline;
+    background-color: #000;
+    color: #fff;
+}
+.project-title{
+    text-align: right;
+    margin-right: 196px;
+}
