@@ -301,19 +301,26 @@ a {
     margin-bottom: 32px;
 }
 
-.card {
-    border: 1px solid #E3E3E3;
-    padding: 16px;
-    align-content: center;
-}
-
 .card-list {
+    width: 636px;
+    height: 328px;
+    display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
 
+
+.card {
+    width: 48%;
+    border: 1px solid #E3E3E3;
+    padding: 16px;
+    align-content: center;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+
 .contact {
-    background-color: #000;
+    background: linear-gradient(#050014, #01021EE3);
     color: #fff;
     padding: 96px 0;
 }
@@ -330,31 +337,35 @@ a {
     width: 100px;
     height: 100px;
 }
-
-.about {
-    margin: 160px 0;
+.icon{
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
 }
 
 .icon:hover {
-    transform: scale(1.2);
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
 }
 .Rectangle-10 {
     width: 416px;
     height: 530px;
 }
 .project {
-    margin: 160px 0;
+   margin: 160px 0;
 }
 .project-p {
     width: 636px;
-    margin-bottom: 76px;
 }
 .project-btn {
-    display: inline;
     background-color: #000;
     color: #fff;
 }
 .project-title{
-    text-align: right;
-    margin-right: 196px;
+    width: 746px;
+    margin-left: auto;
+}
+.project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
